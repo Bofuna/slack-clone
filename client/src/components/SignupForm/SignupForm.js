@@ -4,6 +4,7 @@ import { withRouter } from "react-router-dom";
 import { signup } from "../../actions/session_actions";
 import FormButton from "../FormButton/FormButton";
 import FormInput from "../FormInput/FormInput";
+import styles from "./SignupForm.module.css";
 
 const SignupForm = ({ signup, errors }) => {
   const [name, setName] = useState("");
@@ -25,8 +26,8 @@ const SignupForm = ({ signup, errors }) => {
   };
 
   return (
-    <div className="container">
-      <form onSubmit={handleSubmit}>
+    <div className={styles.container}>
+      <form onSubmit={handleSubmit} className={styles.form}>
         <FormInput
           type="text"
           label="Username"

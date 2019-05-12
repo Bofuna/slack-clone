@@ -1,0 +1,15 @@
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  width: 90%;
+  max-width: 25rem;
+}
+
+.form > * {
+  margin-bottom: 0.5rem;
+}
