@@ -1,0 +1,26 @@
+.button {
+  font-size: 1rem;
+  border-radius: 0.3em;
+  padding: 0.6rem 1.3rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.blue {
+  color: white;
+  background-color: var(--blue);
+}
+
+.blue:hover {
+  background-color: var(--darkblue);
+}
+
+.grey {
+  color: rgb(40, 40, 40);
+  background-color: var(--lightgrey);
+}
+
+.grey:hover {
+  background-color: var(--grey);
+}

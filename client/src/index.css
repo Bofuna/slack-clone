@@ -1,0 +1,12 @@
+:root {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+
+  --red: #d82a2f;
+  --lightgrey: #dedfdf;
+  --grey: #cacbcd;
+  --blue: #2887cd;
+  --darkblue: #1873b8;
+}

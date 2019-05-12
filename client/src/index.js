@@ -1,7 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import "./index.css";
 
-import Root from "./components/root";
+import Root from "./components/Root";
 
 import configureStore from "./store/store";
 
